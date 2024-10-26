@@ -1,0 +1,237 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+    color: #333;
+    line-height: 1.6; 
+}
+
+.about-page-container {
+    max-width: 1200px;
+    margin: 120px auto;
+    padding: 40px;
+    background: #ffffff; 
+    border-radius: 15px;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2); 
+    /* background: linear-gradient(135deg, #dff2ff, #e3defa); */
+    background-color: #f8f9fa;
+}
+
+/* .about-title {
+    font-size: 2.5rem;
+    color: #003366;
+    text-align: center;
+    margin-bottom: 20px;
+    text-shadow: 1px 1px 0 rgba(31, 34, 198, 0.2);
+} */
+
+.about-title {
+    font-size: 2.5rem;
+    color: #003366; /* Dark blue */
+    text-align: center;
+    margin-bottom: 20px;
+    position: relative;
+    border-radius: 10px;
+    text-shadow: 
+        1px 1px 0 rgba(255, 255, 255, 1),  /* Bright white for a strong glow */
+        2px 2px 0 rgba(255, 255, 0, 0.8),  /* Yellow shadow for a lightning effect */
+        4px 4px 0 rgba(0, 0, 0, 0.5),      /* Darker shadow for depth */
+        6px 6px 0 rgba(0, 0, 0, 0.3);      /* Additional shadow for more depth */
+
+    /* Box shadow for the text container */
+    box-shadow: 
+        0 4px 10px rgba(255, 255, 255, 0.4), /* Soft white glow */
+        0 8px 20px rgba(255, 255, 0, 0.3),    /* Yellow glow for a lightning effect */
+        0 12px 40px rgba(0, 0, 0, 0.2);        /* Darker shadow for depth */
+    
+    /* Animation to make it more dynamic */
+    animation: bounce 1s infinite;
+}
+
+/* Bounce Animation */
+@keyframes bounce {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-5px);
+    }
+}
+
+
+/* Bounce Animation */
+@keyframes bounce {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-5px);
+    }
+}
+
+
+.about-intro {
+    font-size: 1.2rem;
+    text-align: center;
+    margin-bottom: 40px;
+    color: #555; /* Darker gray for better contrast */
+}
+
+/* Mission Section */
+.about-section {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+    border: 1px solid #ddd; /* Light border around section */
+    border-radius: 10px; 
+    padding: 20px; /* Padding inside section */
+    background-color: #2c016d; 
+}
+
+.mission-content {
+    flex: 1;
+    padding: 20px;
+}
+
+.mission-title {
+    font-size: 4rem;
+    color: #36f5f9;
+    text-align: center;
+}
+
+.mission-description {
+    font-size: 1.2rem;
+    color: #05c0ef;
+    margin-top: 10px;
+}
+
+.mission-image {
+    flex: 1;
+    text-align: center;
+}
+
+.mission-image img {
+    width: 80%;
+    max-width: 400px;
+    border-radius: 15px; /* Slightly rounded corners */
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1); /* Deeper shadow */
+}
+
+/* Values Section */
+.values {
+    background-color: black;
+    border-radius: 10px;
+}
+
+.values-title {
+    font-size: 2rem; /* Increased size for emphasis */
+    color: #e6f0fa;
+    margin: 60px 0; /* Adjusted margin */
+    text-align: center;
+    padding-top: 30px;
+}
+
+.values-list {
+    list-style: none;
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: center;
+    gap: 30px; /* Reduced gap for compactness */
+    align-items: center;
+    padding: 20px;
+}
+
+.values-list li {
+    margin: 10px 0;
+    color: #efc7c7;
+    transition: background-color 0.3s, color 0.3s; 
+    display: flex;
+    align-items: center;
+    background-color: #003366; /* Dark blue */
+    padding: 12px 20px; /* Increased padding */
+    border-radius: 20px; /* Rounded corners */
+    gap: 14px;
+}
+
+.values-list li:hover {
+    background-color: #ffab40; /* Light orange on hover */
+    color: #000; /* Change text color on hover */
+}
+
+/* Team Section */
+.team-title {
+    font-size: 2rem; /* Increased size */
+    color: #003366; /* Dark blue */
+    margin: 40px 0 20px;
+    text-align: center; 
+}
+
+.team-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap; 
+}
+
+.team-member {
+    flex: 1 1 200px; /* Responsive flex item */
+    text-align: center;
+    margin: 20px;
+    /* background: linear-gradient(135deg, #b2afae, grey); */
+    background-color: #e9d7d7;
+    border-radius: 15px; /* Rounded corners */
+    padding: 20px; /* Increased padding */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s, box-shadow 0.2s; /* Smooth scaling and shadow on hover */
+}
+
+.team-member:hover {
+    transform: translateY(-5px); /* Slight upward movement */
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3); /* Deeper shadow on hover */
+}
+
+.team-member img {
+    width: 80%;
+    border-radius: 50%; 
+    margin-bottom: 10px;
+}
+
+.member-name {
+    font-size: 1.5rem;
+    color: #003366;
+}
+
+.member-role {
+    font-size: 1rem;
+    color: #777; 
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #060202; 
+    color: #fff; 
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .about-section {
+        flex-direction: column; /* Stack sections on smaller screens */
+        text-align: center; /* Center text */
+    }
+
+    .team-container {
+        flex-direction: column; /* Stack team members */
+        align-items: center; /* Center team members */
+    }
+
+    .values-list {
+        flex-direction: column; /* Stack values vertically on small screens */
+        gap: 15px; /* Reduced gap */
+    }
+}

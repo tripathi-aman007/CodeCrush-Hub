@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="services.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+    <title>Our Services - CodeCrush Hub</title>
+</head>
+<body>
+    <header>
+      <div class="logo">CodeCrush Hub</div>
+      <div class="hamburger" id="hamburger">&#9776;</div>
+      <nav id="nav">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <div class="services-header">
+      <h1 >Our Services</h1>
+      <p>
+        Discover how we can help you achieve your business goals with our range
+        of expert services.
+      </p>
+    </div>
+
+    <section class="services-section">
+        <div class="service-row">
+            <div class="service-image">
+                <img src="insideservice1.png" alt="Marketing Strategy" />
+            </div>
+            <div class="service-info">
+                <h3>Marketing Strategy</h3>
+                <p>
+                    Our highly experienced team develops effective marketing strategies to boost your business growth. 
+                    We leverage data-driven insights and creativity to craft campaigns that resonate with your audience.
+                </p>
+                <div class="technologies">
+                    <span class="tech-tag">Google Analytics</span>
+                    <span class="tech-tag">SEMrush</span>
+                    <span class="tech-tag">HubSpot</span>
+                </div>
+            </div>
+        </div>
+        
+        <div class="service-row reverse">
+            <div class="service-info">
+                <h3>Enterprise Consulting</h3>
+                <p>
+                    Our highly experienced consultants provide tailored solutions to enhance your organizational performance 
+                    and achieve your strategic objectives.
+                </p>
+                <div class="technologies">
+                    <span class="tech-tag">SWOT Analysis</span>
+                    <span class="tech-tag">Lean Six Sigma</span>
+                    <span class="tech-tag">Agile Methodology</span>
+                </div>
+            </div>
+            <div class="service-image">
+                <img src="insideservice1.png" alt="Enterprise Consulting" />
+            </div>
+        </div>
+    
+        <div class="service-row">
+            <div class="service-image">
+                <img src="insideservice1.png" alt="Growth Tracking" />
+            </div>
+            <div class="service-info">
+                <h3>Growth Tracking</h3>
+                <p>
+                    We utilize advanced metrics and analytics tools to track your growth and ensure continuous improvement 
+                    tailored to your business needs.
+                </p>
+                <div class="technologies">
+                    <span class="tech-tag">Google Analytics</span>
+                    <span class="tech-tag">Tableau</span>
+                    <span class="tech-tag">Power BI</span>
+                </div>
+            </div>
+        </div>
+    
+        <div class="service-row reverse">
+            <div class="service-info">
+                <h3>Web Development</h3>
+                <p>
+                    Our highly skilled team specializes in creating responsive and user-friendly websites tailored to 
+                    your specific requirements, enhancing your online presence.
+                </p>
+                <div class="technologies">
+                    <span class="tech-tag">HTML5</span>
+                    <span class="tech-tag">CSS3</span>
+                    <span class="tech-tag">JavaScript</span>
+                    <span class="tech-tag">React</span>
+                </div>
+            </div>
+            <div class="service-image">
+                <img src="insideservice1.png" alt="Web Development" />
+            </div>
+        </div>
+    
+        <div class="service-row">
+            <div class="service-image">
+                <img src="insideservice1.png" alt="Digital Marketing" />
+            </div>
+            <div class="service-info">
+                <h3>Digital Marketing</h3>
+                <p>
+                    Our experienced team harnesses the power of digital channels to connect with your audience and drive 
+                    engagement through innovative strategies.
+                </p>
+                <div class="technologies">
+                    <span class="tech-tag">SEO</span>
+                    <span class="tech-tag">PPC</span>
+                    <span class="tech-tag">Social Media</span>
+                </div>
+            </div>
+        </div>
+    
+        <div class="service-row reverse">
+            <div class="service-info">
+                <h3>Analytics</h3>
+                <p>
+                    Transform your data into actionable insights with our comprehensive analytics services, ensuring 
+                    informed decision-making for your business.
+                </p>
+                <div class="technologies">
+                    <span class="tech-tag">R</span>
+                    <span class="tech-tag">Python</span>
+                    <span class="tech-tag">SQL</span>
+                </div>
+            </div>
+            <div class="service-image">
+                <img src="insideservice1.png" alt="Analytics" />
+            </div>
+        </div>
+    </section>    
+
+    <footer>
+      <p>&copy; 2024 CodeCrush Hub. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+    <script>
+      document
+        .getElementById("hamburger")
+        .addEventListener("click", function () {
+          var nav = document.getElementById("nav");
+          nav.classList.toggle("active");
+        });
+    </script>
+</body>
+</html>
